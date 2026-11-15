@@ -30,7 +30,6 @@ A learn-by-doing project by Rebecca (U of T RC): backtesting Value-at-Risk (VaR)
 - Week 5 (planned): crisis case studies - 2008, 2020, 2022
 - Week 6 (planned): validation-style verdict report
 
-> [!NOTE]
 ## How could this project be reused
 
 The pieces are generic and can be borrowed separately: 
