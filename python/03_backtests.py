@@ -83,6 +83,6 @@ for (iid, model), g in df.groupby(["instrument_id", "model"]):
         "LR_cc": None if np.isnan(lr_cc) else round(float(lr_cc), 2),
         "p_cc": None if np.isnan(p_cc) else round(float(p_cc), 4),
     })
-out = pd.DataFrame(rows).sort_values(["model", "instrument_id"])
+out = pd.DataFrame(rows).sort_values(["instrument_id", "model"])
 print(out.to_string(index=False))
 con.close()
